@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Superhero Squad Maker</string>
+    <string name="marvel_copyright_notice">Data provided by Marvel. © 2019 MARVEL</string>
+    <string name="hire_to_squad">💪 Hire to Squad</string>
+    <string name="last_appeared_in">Last appeared in</string>
+
+    <!--    <string name="more_comics">and %s more comics</string>-->
+    <string name="more_comic">and %s more comic</string>
+    <string name="fire_from_squad"> &#128293; Fire from Squad</string>
+    <string name="my_squad">My Squad</string>
+    <string name="this_is_a_splash_image">This is a splash image</string>
+
+</resources>

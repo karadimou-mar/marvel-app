@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/heroesAppView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewSquad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dim_gray"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:text="@string/my_squad" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/squadRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textViewSquad"
+        android:layout_height="90dp"
+        android:visibility="gone"
+        android:scrollbars="horizontal" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/squadRecyclerView"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="@string/marvel_copyright_notice" />
+
+</RelativeLayout>
+
+
+
+

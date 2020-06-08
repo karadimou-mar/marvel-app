@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+
+
+    <style name="HeroDetailTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/HeroActionBarStyle</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!--        Support library compatibility-->
+        <item name="actionBarStyle">@style/HeroActionBarStyle</item>
+        <item name="actionBarTheme">@style/HeroActionBarTheme</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="HeroActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+        <!--        Support library compatibility-->
+        <item name="background">@color/transparent</item>
+        <item name="displayOptions">showHome|useLogo</item>
+    </style>
+
+    <style name="HeroActionBarTheme" parent="Widget.AppCompat.ActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/clear</item>
+        <!--        Support library compatibility-->
+        <item name="homeAsUpIndicator">@drawable/clear</item>
+    </style>
+
+
+    <style name="squad_button">
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+</resources>
